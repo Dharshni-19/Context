@@ -14,7 +14,7 @@ const Homepage = () => {
   };
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [fecthData]);
   const Globalstate = useContext(Cartcontext);
   const dispatch = Globalstate.dispatch;
   console.log(Globalstate);
